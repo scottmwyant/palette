@@ -1,0 +1,30 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(48, 48, 48);
+  padding: 20px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 6px;
+    grid-auto-rows: minmax(150px, auto);
+    filter: drop-shadow(1px 1px 2px gray);
+  }
+  main > section {
+    height: 100%;
+    position: relative;
+    border-radius: .2rem;
+    
+  }
+  main > section > p {
+    padding-left: 10px;
+  }
+  p.name {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 0;
+    max-width: 80%;
+  }
+  p.id {
+    font-size: .65rem;
+  }
