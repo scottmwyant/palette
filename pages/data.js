@@ -18,6 +18,14 @@ window.myPalette = {
         { hex: "#F9F7EC", id: "BEHR YL-W10", name: "Night Blooming Jasmine" }
     ],
     stonehedge: [
-        { hex: "#D0CEC8", id: "SW", name: "On The Rocks" }
+        { hex: "#A0AEAF", id: "SW 7616", name: "Breezy" },
+        { hex: "#B6C3C4", id: "SW 9137", name: "Neibla Azul" },
+        { hex: "#E5DFD2", id: "SW 7010", name: "White Duck" },
+        { hex: "#CEC6BB", id: "SW 7043", name: "Worldly Gray" },
+        { hex: "#BCB7AD", id: "SW 7016", name: "Mindful Gray" },
+        { hex: "#D9D3C4", id: "BM HC-173", name: "Edgecomb Gray" },
+        { hex: "#BFB6AA", id: "SW 7030", name: "Anew Gray" },
+        { hex: "#585858", id: "SW 7674", name: "Peppercorn", fontColor: "whitesmoke" },
+        { hex: "#323639", id: "SW 6993", name: "Black of Night", fontColor: "whitesmoke" }
     ]
 };
