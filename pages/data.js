@@ -15,7 +15,9 @@ window.myPalette = {
         { hex: "#C6D5C9", id: "SW 6456", name: "Slow Green" },
         { hex: "#A0AC9E", id: "BEHR PPU11-15", name: "Green Basalm" },
         { hex: "#C9B29C", id: "SW 7518", name: "Beach House" },
-        { hex: "#F9F7EC", id: "BEHR YL-W10", name: "Night Blooming Jasmine" }
+        { hex: "#F9F7EC", id: "BEHR YL-W10", name: "Night Blooming Jasmine" },
+        { hex: "#D4C5AD", id: "SW 7529", name: "Sand Beach" },
+        { hex: "#DBC7A8", id: "SW 6120", name: "Believeable Bluff" }
     ],
     stonehedge: [
         { hex: "#A0AEAF", id: "SW 7616", name: "Breezy" },
