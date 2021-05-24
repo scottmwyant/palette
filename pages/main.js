@@ -22,6 +22,12 @@ window.myPalette[pathname].forEach(color => {
     const pStore = card.appendChild(document.createElement('p'));
     pStore.classList = "id";
     pStore.textContent = color.id;
+    
+    if(typeof color.whereUsed == 'string'){
+        const pHover = card.appendChild(document.createElement('p'));
+        pHover.classList = "whereUsed";
+        pHover.textContent = color.whereUsed;
+    }
 
     const pName = card.appendChild(document.createElement('p'));
     pName.classList = "name";
