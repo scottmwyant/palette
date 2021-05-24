@@ -1,7 +1,5 @@
 window.myPalette = {
-    camelot: [
-        { hex: "#D0CEC8", id: "SW 7671", name: "On The Rocks" },
-        { hex: "#A6B2B5", id: "SW 9138", name: "Stardew" },
+    blanchester: [
         { hex: "#F8C997", id: "HGSW 1136", name: "Fragrant Nectarine" },
         { hex: "#E7D4B6", id: "BEHR PPU7-18 ", name: "Sand Pearl" },
         { hex: "#C7B198", id: "HGSW 3146", name: "Nomadic Desert" },
@@ -18,6 +16,12 @@ window.myPalette = {
         { hex: "#F9F7EC", id: "BEHR YL-W10", name: "Night Blooming Jasmine" },
         { hex: "#D4C5AD", id: "SW 7529", name: "Sand Beach" },
         { hex: "#DBC7A8", id: "SW 6120", name: "Believeable Bluff" }
+    ],
+    camelot: [
+        { hex: "#D0CEC8", id: "SW 7671", name: "On The Rocks" },
+        { hex: "#A6B2B5", id: "SW 9138", name: "Stardew" },
+        { hex: "#F9F7EC", id: "BEHR YL-W10", name: "Night Blooming Jasmine" },
+        { hex: "#D1CBC1", id: "SW 7029", name: "Agreeable Gray" },
     ],
     stonehedge: [
         { hex: "#A0AEAF", id: "SW 7616", name: "Breezy" },
