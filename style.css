@@ -4,29 +4,29 @@ body{
   padding: 20px;
 }
 main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 6px;
-    grid-auto-rows: 150px;
-    filter: drop-shadow(1px 1px 2px gray);
-  }
-  main > section {
-    height: 100%;
-    position: relative;
-    border-radius: .2rem;
-    
-  }
-  main > section > p {
-    padding: 0px 10px;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: .7rem;
-  }
-  p.name {
-    font-size: .8rem;
-    position: absolute;
-    bottom: 0;
-  }
-  p.id {
-    font-size: .65rem;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 6px;
+  grid-auto-rows: 150px;
+  filter: drop-shadow(1px 1px 2px gray);
+}
+main > section {
+  height: 100%;
+  position: relative;
+  border-radius: .2rem;
+  
+}
+main > section > p {
+  padding: 0px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: .7rem;
+}
+p.name {
+  font-size: .8rem;
+  position: absolute;
+  bottom: 0;
+}
+p.id {
+  font-size: .65rem;
+}
