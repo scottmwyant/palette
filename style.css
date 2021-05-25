@@ -17,13 +17,15 @@ main {
     
   }
   main > section > p {
-    padding-left: 10px;
+    padding: 0px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: .7rem;
   }
   p.name {
     font-size: .8rem;
     position: absolute;
     bottom: 0;
-    max-width: 80%;
   }
   p.id {
     font-size: .65rem;
