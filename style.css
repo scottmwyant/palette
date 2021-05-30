@@ -21,6 +21,19 @@ main > section > p {
   width: 100%;
   box-sizing: border-box;
   font-size: .7rem;
+  position: absolute;
+  z-index: 2
+}
+main > section > div.fill {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1
+}
+
+main > section > div.fill:hover {
+  opacity: 0;
 }
 p.name {
   font-size: .8rem;
@@ -29,4 +42,9 @@ p.name {
 }
 p.id {
   font-size: .65rem;
+  top: 0
+}
+p.whereUsed{
+  top: 30px;
+  z-index: 0
 }

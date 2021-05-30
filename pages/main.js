@@ -19,6 +19,10 @@ window.myPalette[pathname].forEach(color => {
         card.style.color = color.fontColor;
     }
 
+    const fill = card.appendChild(document.createElement('div'));
+    fill.style.background = color.hex;
+    fill.classList="fill"
+
     const pStore = card.appendChild(document.createElement('p'));
     pStore.classList = "id";
     pStore.textContent = color.id;
