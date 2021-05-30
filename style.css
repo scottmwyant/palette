@@ -44,7 +44,12 @@ p.id {
   font-size: .65rem;
   top: 0
 }
-p.whereUsed{
+main > section > ul {
+  padding: 0px 10px;
+  box-sizing: border-box;
+  font-size: .7rem;
+  position: absolute;
   top: 30px;
-  z-index: 0
+  z-index: 0;
+  list-style-position: inside;
 }

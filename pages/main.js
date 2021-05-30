@@ -27,11 +27,20 @@ window.myPalette[pathname].forEach(color => {
     pStore.classList = "id";
     pStore.textContent = color.id;
     
-    if(typeof color.whereUsed == 'string'){
-        const pHover = card.appendChild(document.createElement('p'));
-        pHover.classList = "whereUsed";
-        pHover.textContent = color.whereUsed;
+    const whereUsedList = card.appendChild(document.createElement('ul'));
+    
+    let arr = [];
+    if(Array.isArray(color.whereUsed)){
+        arr = color.whereUsed;
     }
+    else if(typeof color.whereUsed == 'string'){
+        arr = [color.whereUsed];
+    }
+
+    arr.forEach(element => {
+        const whereUsedItem = whereUsedList.appendChild(document.createElement('li'));
+        whereUsedItem.textContent = element;
+    });
 
     const pName = card.appendChild(document.createElement('p'));
     pName.classList = "name";
